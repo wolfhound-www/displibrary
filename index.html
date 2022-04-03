@@ -1,98 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>签派资料平台</title>
-  <link rel="stylesheet" href="./layui/css/layui.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>签派资料平台</title>
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="layui-layout layui-layout-admin">
-  <div class="layui-header">
-    <div class="layui-logo layui-hide-xs layui-bg-black" style="font-size: 20px; user-select: none;">签 派 资 料 平 台</div>
-    <!-- 头部区域（可配合layui 已有的水平导航） -->
-    <ul class="layui-nav layui-layout-left">
-      <!-- 移动端显示 -->
-      <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
-        <i class="layui-icon layui-icon-spread-left"></i>
-      </li>
+	<div class="layui-layout layui-layout-admin">
+		<div class="layui-header">
+			<div class="layui-logo layui-hide-xs layui-bg-black" style="font-size: 20px; user-select: none;">签 派 资 料 平 台</div>
+			<!-- 头部水平导航 -->
+			<ul class="layui-nav layui-layout-left">
+			<!-- 移动端显示 -->
+				<li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft"><i class="layui-icon layui-icon-spread-left"></i></li>
+				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></li>    
+				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></li>
+				<!-- li class="layui-nav-item layui-hide-xs"><a href="">nav 3</a></li>
+				<li class="layui-nav-item"><a href="javascript:;">nav groups</a>
+					<dl class="layui-nav-child">
+						<dd><a href="">menu 11</a></dd>
+						<dd><a href="">menu 22</a></dd>
+						<dd><a href="">menu 33</a></dd>
+					</dl>
+				</li -->
+			</ul>
+			<form class="layui-form-item" style="padding-right:10px;padding-top:10px;width:750px;float:right;">
+				<div class="layui-form-mid searchTips" id="searchTips"></div>
+				<button type="button" class="layui-btn layui-btn-normal layui-bg-green searchBtn" id="searchBtn"><i class="layui-icon">&#xe615;</i></button>
+				<input type="search" lay-verify="required" autocomplete="off" id="search" placeholder="输入搜索关键词" class="layui-input search">
+			</form>
+		</div>
 
-      <li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></li>    
-      <li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></li>
-      <!-- li class="layui-nav-item layui-hide-xs"><a href="">nav 3</a></li>
-      <li class="layui-nav-item">
-        <a href="javascript:;">nav groups</a>
-        <dl class="layui-nav-child">
-          <dd><a href="">menu 11</a></dd>
-          <dd><a href="">menu 22</a></dd>
-          <dd><a href="">menu 33</a></dd>
-        </dl>
-      </li -->
-    </ul>
-  </div>
+		<div class="layui-side layui-bg-black">
+			<div class="layui-side-scroll">
+			<!-- 左侧垂直导航 -->
+				<ul class="layui-nav layui-nav-tree" lay-filter="test">
+					<li style="text-align: center; user-select: none; color: #d2d2d2; background-color: rgba(0,0,0,.35); padding: 10px 0;">更新日期：2022/02/28</li>
+					<li class="layui-nav-item layui-nav-itemed"><a href="javascript:;">中国民航资料</a>
+						<dl class="layui-nav-child">
+							<dd class="layui-this"><a href="javascript:;" class="file-nav-item" id="CN_CCAR">民航规章</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="CN_AC">规范文件</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="CN_other">其它</a></dd -->
+						</dl>
+					</li>
+					<li class="layui-nav-item"><a href="javascript:;">外国民航资料</a>
+						<dl class="layui-nav-child">
+							<dd><a href="javascript:;" class="file-nav-item" id="US">美国</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="EU">欧洲</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="FN_other">其它</a></dd -->
+						</dl>
+					</li>
+					<li class="layui-nav-item"><a href="javascript:;">ICAO</a>
+						<dl class="layui-nav-child">
+							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Annex">Annex</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Doc">Doc</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="ICAO_other">其它</a></dd -->
+						</dl>
+					</li>
+					<!-- li class="layui-nav-item"><a href="javascript:;" class="file-nav-item" id="other">其它资料</a></li -->
+				</ul>
+			</div>
+		</div>
   
-  <div class="layui-side layui-bg-black">
-    <div class="layui-side-scroll">
-      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-      <ul class="layui-nav layui-nav-tree" lay-filter="test">
-        <li style="text-align: center; user-select: none; color: #d2d2d2; background-color: rgba(0,0,0,.35); padding: 10px 0;">更新日期：2022/02/28</li>
-        <li class="layui-nav-item layui-nav-itemed">
-          <a class="" href="javascript:;">中国民航资料</a>
-          <dl class="layui-nav-child">
-            <dd class="layui-this"><a href="./page/CN_CCAR2.html?" target="iframeMain">民航规章</a></dd>
-            <dd><a href="./page/CN_AC.html?" target="iframeMain">规范文件</a></dd>
-            <dd><a href="./page/CN_other.html?" target="iframeMain">其它</a></dd>
-          </dl>
-        </li>
-        <li class="layui-nav-item">
-          <a href="javascript:;">外国民航资料</a>
-          <dl class="layui-nav-child">
-            <dd><a href="./page/US.html?" target="iframeMain">美国</a></dd>
-            <dd><a href="./page/EU.html?" target="iframeMain">欧洲</a></dd>
-            <dd><a href="./page/FN_other.html?" target="iframeMain">其它</a></dd>
-          </dl>
-        </li>
-        <li class="layui-nav-item">
-          <a href="javascript:;">ICAO</a>
-          <dl class="layui-nav-child">
-            <dd><a href="./page/ICAO_Annex.html?" target="iframeMain">Annex</a></dd>
-            <dd><a href="./page/ICAO_Doc.html?" target="iframeMain">Doc</a></dd>
-            <dd><a href="./page/ICAO_other.html?" target="iframeMain">其它</a></dd>
-          </dl>
-        </li>
-        <li class="layui-nav-item"><a href="./page/other.html?" target="iframeMain">其它资料</a></li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="layui-body">
-    <!-- 内容主体区域 -->
-	<div>
-		<iframe id="iframeMain"  src="./page/CN_CCAR.html?" frameborder="0" class="layadmin-iframe" name="iframeMain" style="width: 100%; height: 85vh;"></iframe>
+		<div class="layui-body">
+		<!-- 内容主体区域 -->
+			<table class="layui-hide" id="fileList"></table>
+		</div>
+
+		<!-- div class="layui-footer">
+		<!-- 底部固定区域 -->
+			<!-- 签派资料平台 -->
+		</div -->
 	</div>
-  </div>
-  
-  <!-- div class="layui-footer">
-    <!-- 底部固定区域 -->
-    <!-- 签派资料平台 -->
-  </div -->
-</div>
-<script src="./layui/layui.js"></script>
-<script>
-//JS 
-layui.use(['element', 'layer', 'util'], function(){
-  var element = layui.element;
-  ,layer = layui.layer;
-  ,util = layui.util;
-  ,$ = layui.$;  
-  //头部事件
-  util.event('lay-header-event', {
-    //左侧菜单事件
-    menuLeft: function(othis){
-      layer.msg('展开左侧菜单的操作', {icon: 0});
-    }
-  });		
-});
-</script>
+
+	<script src="layui/layui.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>

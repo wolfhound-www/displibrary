@@ -1,0 +1,47 @@
+.layui-body {
+	padding-left: 10px;
+	min-width: 800px;
+}
+.layui-table-cell {
+	white-space: normal;
+	height: auto;
+}
+.layui-table th {
+	font-size: 15px;
+}
+.layui-table td {
+	font-size: 15px;
+}
+.layui-table tbody tr:hover {
+	background: #E2E2E2;
+}
+.tag{
+	margin-right: 8px;
+	user-select: none;
+}
+.keyword{
+	font-size: 15px;
+	padding: 5px;
+	margin-top: -3px;
+}
+.searchTips{
+	font-size: 15px;
+	user-select: none;
+}
+.searchTips span{
+	max-width: 260px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.search{
+	width: 280px;
+	font-size: 15px;
+	float:right;
+}
+.searchBtn{
+	float:right;
+	width: 40px;
+	padding: 0;
+	text-align: center;
+}
