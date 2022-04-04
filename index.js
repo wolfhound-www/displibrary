@@ -6,6 +6,10 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,$ = layui.$;
 	var search = ""
 	,scrollTop = 0;
+
+	$(".update-date").ready(function(){
+		$(".update-date").html("更新日期："+updateDate);
+	});
 	//头部事件
 	util.event('lay-header-event', {
 		//左侧菜单伸缩事件

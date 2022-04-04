@@ -15,14 +15,21 @@
 .layui-table tbody tr:hover {
 	background: #E2E2E2;
 }
-.icon-spread-left{
+.icon-spread-left {
 	margin-right: 20px;
 }
-.tag{
+.update-date {
+	text-align: center;
+	user-select: none;
+	color: #d2d2d2;
+	background-color: rgba(0,0,0,.35);
+	padding: 10px 0;
+}
+.tag {
 	margin-right: 8px;
 	user-select: none;
 }
-.keyword{
+.keyword {
 	height:25px;
 	padding: 4px 8px;
 	margin: -3px 0 0 10px;
@@ -34,13 +41,13 @@
 	text-overflow: ellipsis;
 	user-select: none;
 }
-.search{
+.search {
 	width: calc(min(max(150px, 100vw - 780px), 300px));
 	font-size: 15px;
 	vertical-align: middle;
 	display: inline-block;
 }
-.searchBtn{
+.searchBtn {
 	width: 40px;
 	padding: 0;
 	text-align: center;
