@@ -11,12 +11,12 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 		//左侧菜单伸缩事件
 		menuLeft: function(othis){
 			if ($(".layui-side").css("display") == "none") {
-				scrollTop = $('.layui-table-body').scrollTop;
+				scrollTop = $('.layui-table-body').scrollTop();
 				$(".layui-side").css("display","block");
 				$(".layui-body").css("left","200px");
 				table.reload('fileListRender',{cols: [colsData]});
 			} else {
-				scrollTop = $('.layui-table-body').scrollTop;
+				scrollTop = $('.layui-table-body').scrollTop();
 				$(".layui-side").css("display","none");	
 				$(".layui-body").css("left","0");			
 				table.reload('fileListRender',{cols: [colsData]});
@@ -75,7 +75,7 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	});
 	//监听窗口变化事件
 	$(window).resize(function(){
-		scrollTop = $('.layui-table-body').scrollTop;
+		scrollTop = $('.layui-table-body').scrollTop();
 		table.reload('fileListRender',{cols: [colsData]});
 	});
 });
