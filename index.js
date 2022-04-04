@@ -10,10 +10,14 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 		//左侧菜单伸缩事件
 		menuLeft: function(othis){
 			if ($(".layui-side").css("display") == "none") {
+				var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
+				activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
 				$(".layui-side").css("display","block");
 				$(".layui-body").css("left","200px");
 				table.reload('fileListRender',{cols: [colsData]});
 			} else {
+				var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
+				activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
 				$(".layui-side").css("display","none");	
 				$(".layui-body").css("left","0");			
 				table.reload('fileListRender',{cols: [colsData]});
@@ -67,10 +71,14 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 						tr.css("display", "none");
 				}}
 			});
+			$('.layui-table-body').scrollTop(activeData.tableScroll.scrollTob);
+			activeData.tableScroll.scrollTop = 0;
 		}
 	});
 	//监听窗口变化事件
 	$(window).resize(function(){
+		var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
+		activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
 		table.reload('fileListRender',{cols: [colsData]});
 	});
 });
