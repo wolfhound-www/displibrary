@@ -14,19 +14,19 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 				$(".layui-logo").css("display","block");
 				$(".layui-layout-left").css("left","200px");
 				$(".layui-body").css("left","200px");
-				table.reload('fileListRender');
+				table.reload('fileListRender',{cols: [colsData]});
 			} else {
 				$(".layui-side").css("display","none");
 				$(".layui-logo").css("display","none");
 				$(".layui-layout-left").css("left","0");	
 				$(".layui-body").css("left","0");			
-				table.reload('fileListRender');
+				table.reload('fileListRender',{cols: [colsData]});
 			}
 		}
 	});
 	//数据加载事件
 	$(".file-nav-item").click(function(){
-		table.reload('fileListRender',{url: 'json/'+this.id+'.json'});
+		table.reload('fileListRender',{cols: [colsData],url: 'json/'+this.id+'.json'});
 	});
 	//搜索框点击选中事件
 	$("#search").click(function(){
