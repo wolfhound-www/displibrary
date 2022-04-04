@@ -11,14 +11,10 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 		menuLeft: function(othis){
 			if ($(".layui-side").css("display") == "none") {
 				$(".layui-side").css("display","block");
-				$(".layui-logo").css("display","block");
-				$(".layui-layout-left").css("left","200px");
 				$(".layui-body").css("left","200px");
 				table.reload('fileListRender',{cols: [colsData]});
 			} else {
-				$(".layui-side").css("display","none");
-				$(".layui-logo").css("display","none");
-				$(".layui-layout-left").css("left","0");	
+				$(".layui-side").css("display","none");	
 				$(".layui-body").css("left","0");			
 				table.reload('fileListRender',{cols: [colsData]});
 			}
