@@ -27,7 +27,7 @@
 	padding: 4px 8px;
 	margin: -3px 0 0 10px;
 	font-size: 14px;
-	max-width: 210px;
+	max-width: calc(min(max(140px, 100vw - 790px), 290px));
 	vertical-align: middle;
 	white-space: nowrap;
 	overflow: hidden;
@@ -35,7 +35,7 @@
 	user-select: none;
 }
 .search{
-	width: calc(min(230px, 30vw));
+	width: calc(min(max(150px, 100vw - 780px), 300px));
 	font-size: 15px;
 	vertical-align: middle;
 	display: inline-block;
