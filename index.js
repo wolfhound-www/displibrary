@@ -3,26 +3,32 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,layer = layui.layer
 	,util = layui.util
 	,table = layui.table
-	,$ = layui.$
+	,$ = layui.$;
+	var search = "";
 	//头部事件
 	util.event('lay-header-event', {
-		//左侧菜单事件
+		//左侧菜单伸缩事件
 		menuLeft: function(othis){
 			if ($(".layui-side").css("display") == "none") {
 				$(".layui-side").css("display","block");
 				$(".layui-logo").css("display","block");
 				$(".layui-layout-left").css("left","200px");
 				$(".layui-body").css("left","200px");
+				table.reload('fileListRender');
 			} else {
 				$(".layui-side").css("display","none");
 				$(".layui-logo").css("display","none");
 				$(".layui-layout-left").css("left","0");	
 				$(".layui-body").css("left","0");			
+				table.reload('fileListRender');
 			}
 		}
 	});
+	//搜索框点击默认选中事件
+	$("#search").click(function(){
+		this.select();
+	});
 	//搜索事件
-	var search = "";
 	$("#searchBtn").click(function(){
 		search = $("#search").val().replace(/(^\s*)|(\s*$)/g,"");
 		if (search != "") {
