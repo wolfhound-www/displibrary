@@ -77,4 +77,8 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 			});
 		}
 	});
+	//监听窗口变化事件
+	$(window).resize(function(){
+		table.reload('fileListRender',{cols: [colsData]});
+	});
 });
