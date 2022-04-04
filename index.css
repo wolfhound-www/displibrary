@@ -1,6 +1,6 @@
 .layui-body {
 	padding-left: 10px;
-	min-width: 800px;
+	min-width: 720px;
 }
 .layui-table-cell {
 	white-space: normal;
@@ -8,6 +8,7 @@
 }
 .layui-table th {
 	font-size: 15px;
+	user-select: none;
 }
 .layui-table td {
 	font-size: 15px;
