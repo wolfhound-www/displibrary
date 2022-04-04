@@ -4,20 +4,19 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,util = layui.util
 	,table = layui.table
 	,$ = layui.$;
-
+	var search = ""
+	,scrollTop = 0;
 	//头部事件
 	util.event('lay-header-event', {
 		//左侧菜单伸缩事件
 		menuLeft: function(othis){
 			if ($(".layui-side").css("display") == "none") {
-				var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
-				activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
+				scrollTop = $('.layui-table-body').scrollTop;
 				$(".layui-side").css("display","block");
 				$(".layui-body").css("left","200px");
 				table.reload('fileListRender',{cols: [colsData]});
 			} else {
-				var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
-				activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
+				scrollTop = $('.layui-table-body').scrollTop;
 				$(".layui-side").css("display","none");	
 				$(".layui-body").css("left","0");			
 				table.reload('fileListRender',{cols: [colsData]});
@@ -29,7 +28,6 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 		table.reload('fileListRender',{cols: [colsData],url: 'json/'+this.id+'.json'});
 	});
 	//搜索事件
-	var search = ""
 	var colsData = [{field:'num', title: '序号', width:60, unresize:true, type:'numbers'}
 		,{field:'fileId', title: '文号', sort:true, width:200, unresize:true}
 		,{field:'fileName', title: '名称', sort:true, unresize:true, templet: '<div><a href="{{d.url}}"  target="_blank">{{d.fileName}}</a></div>'}
@@ -71,14 +69,13 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 						tr.css("display", "none");
 				}}
 			});
-			$('.layui-table-body').scrollTop(activeData.tableScroll.scrollTob);
-			activeData.tableScroll.scrollTop = 0;
+			$('.layui-table-body').scrollTop(scrollTop);
+			scrollTop = 0;
 		}
 	});
 	//监听窗口变化事件
 	$(window).resize(function(){
-		var scrollTop = ($('.layui-table-body') && $('.layui-table-body').length > 1) ? $('.layui-table-body')[0].scrollTop : $('.layui-table-body').scrollTop;
-		activeData.tableScroll.scrollTop = scrollTop == 0 ? activeData.tableScroll.scrollTop : scrollTop;
+		scrollTop = $('.layui-table-body').scrollTop;
 		table.reload('fileListRender',{cols: [colsData]});
 	});
 });
