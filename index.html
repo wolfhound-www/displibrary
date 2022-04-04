@@ -14,23 +14,19 @@
 			<!-- 头部水平导航 -->
 			<ul class="layui-nav layui-layout-left">
 			<!-- 移动端显示 -->
-				<li class="layui-nav-item" lay-header-event="menuLeft"><i class="layui-icon layui-icon-spread-left"></i></li>
+				<li class="layui-nav-item icon-spread-left" lay-header-event="menuLeft"><i class="layui-icon layui-icon-spread-left"></i></li>
+				<li class="layui-nav-item layui-hide-sm layui-hide-md layui-hide-lg"><i class="layui-icon layui-icon-link"></i>
+					<dl class="layui-nav-child">
+						<dd><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></dd>
+						<dd><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></dd>
+					</dl>
+				</li>
 				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></li>    
 				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></li>
-				<!-- li class="layui-nav-item layui-hide-xs"><a href="">nav 3</a></li>
-				<li class="layui-nav-item"><a href="javascript:;">nav groups</a>
-					<dl class="layui-nav-child">
-						<dd><a href="">menu 11</a></dd>
-						<dd><a href="">menu 22</a></dd>
-						<dd><a href="">menu 33</a></dd>
-					</dl>
-				</li -->
 			</ul>
-			<form class="layui-form-item" style="padding-right:10px;padding-top:10px;width:750px;float:right;">
-				<div class="layui-form-mid searchTips" id="searchTips"></div>
-				<button type="button" class="layui-btn layui-btn-normal layui-bg-green searchBtn" id="searchBtn"><i class="layui-icon">&#xe615;</i></button>
-				<input type="search" lay-verify="required" autocomplete="off"  spellcheck="false" id="search" placeholder="输入搜索关键词" class="layui-input search">
-			</form>
+			<ul class="layui-nav layui-layout-right" lay-bar="disabled">
+				<li class="layui-nav-item"><input type="search" lay-verify="required" autocomplete="off"  spellcheck="false" id="search" placeholder="输入搜索关键词" class="layui-input search"><button type="button" class="layui-btn layui-btn-normal layui-bg-green searchBtn" id="searchBtn"><i class="layui-icon">&#xe615;</i></button></li>
+			</ul>
 		</div>
 
 		<div class="layui-side layui-bg-black">

@@ -15,32 +15,32 @@
 .layui-table tbody tr:hover {
 	background: #E2E2E2;
 }
+.icon-spread-left{
+	margin-right: 20px;
+}
 .tag{
 	margin-right: 8px;
 	user-select: none;
 }
 .keyword{
-	font-size: 15px;
-	padding: 5px;
-	margin-top: -3px;
-}
-.searchTips{
-	font-size: 15px;
-	user-select: none;
-}
-.searchTips span{
-	max-width: 260px;
+	height:25px;
+	padding: 4px 8px;
+	margin: -3px 0 0 10px;
+	font-size: 14px;
+	max-width: 210px;
+	vertical-align: middle;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	user-select: none;
 }
 .search{
-	width: 280px;
+	width: calc(min(230px, 30vw));
 	font-size: 15px;
-	float:right;
+	vertical-align: middle;
+	display: inline-block;
 }
 .searchBtn{
-	float:right;
 	width: 40px;
 	padding: 0;
 	text-align: center;
