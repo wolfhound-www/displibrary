@@ -28,10 +28,6 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	$(".file-nav-item").click(function(){
 		table.reload('fileListRender',{cols: [colsData],url: 'json/'+this.id+'.json'});
 	});
-	//搜索框点击选中事件
-	$("#search").click(function(){
-		this.select();
-	});
 	//搜索事件
 	var search = ""
 	var colsData = [{field:'num', title: '序号', width:60, unresize:true, type:'numbers'}
