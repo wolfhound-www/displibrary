@@ -16,6 +16,7 @@
 }
 .layui-table th {
 	font-size: 15px;
+	user-select: none;
 }
 .layui-table td {
 	font-size: 15px;

@@ -6,9 +6,16 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,$ = layui.$;
 	var search = ""
 	,scrollTop = 0;
-	//加载更新日期
+	//网页加载
 	$(".update-date").ready(function(){
 		$(".update-date").html("更新日期："+updateDate);
+	});
+	$("#smLink").ready(function(){
+		$("#headnav .layui-hide-xs a").each(function(){
+			$("#smLink dl").append("<dd>");
+			$("#smLink dl").append($(this).clone());
+			$("#smLink dl").append("</dd>");
+		});
 	});
 	//头部事件
 	util.event('lay-header-event', {
@@ -39,8 +46,8 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	});
 	//搜索事件
 	var colsData = [{field:'num', title: '序号', width:60, unresize:true, type:'numbers'}
-		,{field:'fileId', title: '文号', sort:true, width:200, unresize:true}
-		,{field:'fileName', title: '名称', sort:true, unresize:true, templet: '<div><a href="{{d.url}}"  target="_blank">{{d.fileName}}</a></div>'}
+		,{field:'fileId', title: '文号', width:200, unresize:true}
+		,{field:'fileName', title: '名称', unresize:true, templet: '<div><a href="{{d.url}}"  target="_blank">{{d.fileName}}</a></div>'}
 		,{field:'fileTag', title: '标签', width:220, unresize:true
 			, templet: function(d){
 				var tags=d.fileTag.split(" ");

@@ -12,14 +12,11 @@
 		<div class="layui-header">
 			<div class="layui-logo layui-bg-black"  style="font-size: 20px; user-select: none;"><div id="title">签 派 资 料 平 台<font style="font-size: 15px;"  id="subTitle"></font></div></div>
 			<!-- 头部水平导航 -->
-			<ul class="layui-nav layui-layout-left">
+			<ul class="layui-nav layui-layout-left" id="headnav">
 			<!-- 移动端显示 -->
 				<li class="layui-nav-item icon-spread-left" lay-header-event="menuLeft"><i class="layui-icon layui-icon-spread-left"></i></li>
-				<li class="layui-nav-item layui-hide-sm layui-hide-md layui-hide-lg"><i class="layui-icon layui-icon-link"></i>
-					<dl class="layui-nav-child">
-						<dd><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></dd>
-						<dd><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></dd>
-					</dl>
+				<li class="layui-nav-item layui-hide-sm layui-hide-md layui-hide-lg" id="smLink"><i class="layui-icon layui-icon-link"></i>
+					<dl class="layui-nav-child"></dl>
 				</li>
 				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://aip.siniswift.com:9091/index.html#/AIP" target="_blank">AIP</a></li>    
 				<li class="layui-nav-item layui-hide-xs" style="user-select: none;"><a href="http://ww1.jeppesen.com/icharts/login.jsp" target="_blank">Jeppesen</a></li>
