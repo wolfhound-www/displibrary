@@ -6,7 +6,7 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,$ = layui.$;
 	var search = ""
 	,scrollTop = 0;
-
+	//加载更新日期
 	$(".update-date").ready(function(){
 		$(".update-date").html("更新日期："+updateDate);
 	});
@@ -80,6 +80,6 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	//监听窗口变化事件
 	$(window).resize(function(){
 		scrollTop = $('.layui-table-body').scrollTop();
-		table.reload('fileListRender',{cols: [colsData]});
+		setTimeout(table.reload('fileListRender',{cols: [colsData]}), 100);
 	});
 });
