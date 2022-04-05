@@ -1,3 +1,11 @@
+.logo-small {
+	display: table;
+}
+.title {
+	display: table-cell;
+	vertical-align: bottom;
+	line-height: 25px;
+}
 .layui-body {
 	padding-left: 10px;
 	min-width: 730px;

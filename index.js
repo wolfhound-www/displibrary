@@ -18,11 +18,17 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 				scrollTop = $('.layui-table-body').scrollTop();
 				$(".layui-side").css("display","block");
 				$(".layui-body").css("left","200px");
+				$("#subTitle").html("");
+				$(".layui-logo").removeClass("logo-small");
+				$("#title").removeClass("title");
 				table.reload('fileListRender',{cols: [colsData]});
 			} else {
 				scrollTop = $('.layui-table-body').scrollTop();
 				$(".layui-side").css("display","none");	
-				$(".layui-body").css("left","0");			
+				$(".layui-body").css("left","0");
+				$(".layui-logo").addClass("logo-small");
+				$("#title").addClass("title");
+				$("#subTitle").html("<br>—&nbsp;&nbsp;"+$(".layui-this a").attr("name")+"&nbsp;&nbsp;—");		
 				table.reload('fileListRender',{cols: [colsData]});
 			}
 		}

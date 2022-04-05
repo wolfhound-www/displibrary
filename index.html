@@ -10,7 +10,7 @@
 <body>
 	<div class="layui-layout layui-layout-admin">
 		<div class="layui-header">
-			<div class="layui-logo layui-bg-black" style="font-size: 20px; user-select: none;">签 派 资 料 平 台</div>
+			<div class="layui-logo layui-bg-black"  style="font-size: 20px; user-select: none;"><div id="title">签 派 资 料 平 台<font style="font-size: 15px;"  id="subTitle"></font></div></div>
 			<!-- 头部水平导航 -->
 			<ul class="layui-nav layui-layout-left">
 			<!-- 移动端显示 -->
@@ -36,26 +36,26 @@
 					<li class="update-date">&nbsp;</li>
 					<li class="layui-nav-item layui-nav-itemed"><a href="javascript:;">中国民航资料</a>
 						<dl class="layui-nav-child">
-							<dd class="layui-this"><a href="javascript:;" class="file-nav-item" id="CN_CCAR">民航规章</a></dd>
-							<dd><a href="javascript:;" class="file-nav-item" id="CN_AC">规范文件</a></dd>
-							<!-- dd><a href="javascript:;" class="file-nav-item" id="CN_other">其它</a></dd -->
+							<dd class="layui-this"><a href="javascript:;" class="file-nav-item" id="CN_CCAR" name="中国民航规章">民航规章</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="CN_AC" name="中国民航规范文件">规范文件</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="CN_other" name="中国其它资料">其它</a></dd -->
 						</dl>
 					</li>
 					<li class="layui-nav-item"><a href="javascript:;">外国民航资料</a>
 						<dl class="layui-nav-child">
-							<dd><a href="javascript:;" class="file-nav-item" id="US">美国</a></dd>
-							<dd><a href="javascript:;" class="file-nav-item" id="EU">欧洲</a></dd>
-							<!-- dd><a href="javascript:;" class="file-nav-item" id="FN_other">其它</a></dd -->
+							<dd><a href="javascript:;" class="file-nav-item" id="US" name="美国民航资料">美国</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="EU" name="欧洲民航资料">欧洲</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="FN_other" name="外国其它资料">其它</a></dd -->
 						</dl>
 					</li>
 					<li class="layui-nav-item"><a href="javascript:;">ICAO</a>
 						<dl class="layui-nav-child">
-							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Annex">Annex</a></dd>
-							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Doc">Doc</a></dd>
-							<!-- dd><a href="javascript:;" class="file-nav-item" id="ICAO_other">其它</a></dd -->
+							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Annex" name="ICAO Annex">Annex</a></dd>
+							<dd><a href="javascript:;" class="file-nav-item" id="ICAO_Doc" name="ICAO Doc">Doc</a></dd>
+							<!-- dd><a href="javascript:;" class="file-nav-item" id="ICAO_other" name="ICAO其它资料">其它</a></dd -->
 						</dl>
 					</li>
-					<!-- li class="layui-nav-item"><a href="javascript:;" class="file-nav-item" id="other">其它资料</a></li -->
+					<!-- li class="layui-nav-item"><a href="javascript:;" class="file-nav-item" id="other" name="其它资料">其它资料</a></li -->
 				</ul>
 			</div>
 		</div>
