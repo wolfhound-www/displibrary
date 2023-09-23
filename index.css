@@ -1,0 +1,82 @@
+.logo-small {
+	display: table;
+}
+#logo {
+	user-select: none; 
+	font-size: 20px;
+}
+#logo svg {
+	width: 24px;
+	margin: 0px 10px -5px -5px;
+}
+.title {
+	display: table-cell;
+	vertical-align: bottom;
+	line-height: 25px;
+}
+.layui-body {
+	padding-left: 10px;
+	min-width: 730px;
+}
+.layui-table-cell {
+	white-space: normal;
+	height: auto;
+}
+.layui-table th {
+	font-size: 15px;
+	user-select: none;
+}
+.layui-table td {
+	font-size: 15px;
+}
+.layui-table tbody tr:hover {
+	background: #E2E2E2;
+}
+.icon-spread-left {
+	margin-right: 20px;
+}
+#update-date {
+	text-align: center;
+	user-select: none;
+	color: #d2d2d2;
+	background-color: rgba(0,0,0,.35);
+	padding: 10px 0;
+}
+.notice {
+	user-select: none;
+	color: #d2d2d2;
+	padding: 10px 0;
+	margin-left: 20px;
+	line-height: 40px;
+}
+.tag {
+	margin-right: 8px;
+	user-select: none;
+}
+.keyword {
+	height:25px;
+	padding: 4px 8px;
+	margin: -3px 0 0 10px;
+	font-size: 14px;
+	max-width: calc(min(max(140px, 100vw - 790px), 290px));
+	max-width: 140px\0;
+	*max-width: 140px;
+	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	user-select: none;
+}
+.search {
+	max-width: 300px;
+	min-width: 150px;
+	width: calc(100vw - 780px);
+	font-size: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.searchBtn {
+	width: 40px;
+	padding: 0;
+	text-align: center;
+}
