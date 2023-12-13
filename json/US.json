@@ -67,7 +67,7 @@ var dataUS=[
 {"fileId": "Order 7400.11H","fileName": "Airspace Designations and Reporting Points","url": "https://www.faa.gov/documentLibrary/media/Order/2023-08-11_FAA_Order_JO_7400.11H_Airspace_Designations_and_Reporting_Points.pdf","fileTag": "空域名称和报告点","fileKeyword": ""},
 {"fileId": "Order 7610.14","fileName": "Non-Sensitive Procedures and Requirements for Special Operations","url": "https://www.faa.gov/documentLibrary/media/Order/JO_7610.14_Basic_dtd_10-5-23.pdf","fileTag": "特殊运行的非敏感程序和要求","fileKeyword": ""},
 {"fileId": "Order 7900.5E","fileName": "Surface Weather Observing","url": "https://www.faa.gov/documentLibrary/media/Order/JO_7900.5E_with_Change_1.pdf","fileTag": "场面天气观测","fileKeyword": ""},
-{"fileId": "Order 7930.2S","fileName": "Notices to Air Missions (NOTAM)","url": "https://www.faa.gov/air_traffic/publications/atpubs/notam_html/","fileTag": "航行通告 NOTAM","fileKeyword": ""},
+{"fileId": "Order 7930.2T","fileName": "Notice to Air Missions (NOTAM)","url": "https://www.faa.gov/air_traffic/publications/atpubs/notam_html/","fileTag": "航行通告 NOTAM","fileKeyword": ""},
 {"fileId": "Order 8000.367C","fileName": "AVS Safety Management System (AVSSMS) Requirements","url": "https://www.faa.gov/documentLibrary/media/Order/VS_8000.367C.pdf","fileTag": "航空安全管理体系 AVSSMS","fileKeyword": ""},
 {"fileId": "Order 8000.369C","fileName": "Safety Management System","url": "https://www.faa.gov/documentLibrary/media/Order/Order_8000.369C.pdf","fileTag": "安全管理体系 SMS","fileKeyword": ""},
 {"fileId": "Order 8040.4B","fileName": "Safety Risk Management Policy","url": "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8040.4B.pdf","fileTag": "安全风险管理政策","fileKeyword": ""},
