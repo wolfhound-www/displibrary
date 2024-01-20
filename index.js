@@ -80,7 +80,7 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 				};
 			});
 		});
-		/*$("#notice").append("<tr><td width=80px>收录资料：</td><td>"+itemCounter+"</td></tr><tr><td>标签：</td><td>"+tagCounter+"</td></tr><tr><td>关键词：</td><td>"+keywordCounter+"</td></tr>");*/
+		$("#notice").append("<tr><td width=80px>收录资料：</td><td>"+itemCounter+"</td></tr><tr><td>标签：</td><td>"+tagCounter+"</td></tr><tr><td>关键词：</td><td>"+keywordCounter+"</td></tr>");
 	});
 	//数据加载事件
 	$(".file-nav-item").click(function(){
