@@ -23,7 +23,7 @@ layui.use(['element', 'layer', 'util', 'table'], function(){
 	,tagCounter = 0
 	,keywordCounter = 0;
 	var colsData = [{field:'num', title: '序号', width:60, unresize:true, type:'numbers'}
-		,{field:'fileId', title: '文号', width:200, unresize:true}
+		,{field:'fileId', title: '文号', width:210, unresize:true}
 		,{field:'fileName', title: '名称', unresize:true, templet: '<div><a href="{{d.url}}"  target="_blank">{{d.fileName}}</a></div>'}
 		,{field:'fileTag', title: '标签', width:220, unresize:true
 			, templet: function(d){
