@@ -76,6 +76,7 @@ var dataCN_AC=[
 {"fileId": "民航发〔2024〕38号","fileName": "民航重大安全隐患判定标准（2024年修订版）","url": "https://yun.csair.com/weboffice/l/sd17JgbxWMzWi","fileTag": "安全隐患","fileKeyword": ""},
 {"fileId": "AC-398-05","fileName": "关于落实民航安全责任的管理办法","url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202312/t20231221_222407.html","fileTag": "民航安全责任","fileKeyword": "民航生产经营单位的安全主体责任 推动以全员安全生产责任制落实安全主体责任 民航生产经营单位的安全领导责任 民航生产经营单位职工的安全岗位责任 安全责任追究"},
 {"fileId": "AC-395-AS-01","fileName": "民用航空器征候等级划分办法","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202109/t20210903_209115.html","fileTag": "征候","fileKeyword": "运输航空严重征候 运输航空一般征候 通用航空征候 运输航空地面征候 航空器小于规定雷达管制间隔事件危险指数评价方法 可控飞行撞地危险指数计算方法 民用航空器征候样例清单 跑道侵入 航空器受损 人员轻伤 航空器运行阶段 非法飞行 飞行中 机场活动区"},
+{"fileId": "MD-396-03","fileName": "运输航空公司一般事件判定指南（试行）","url": "https://yun.csair.com/weboffice/l/s9wfD3sqLXFgH","fileTag": "一类事件 二类事件","fileKeyword": ""},
 {"fileId": "AC-276R2-TR-2024-01","fileName": "公共航空危险品运输事件判定和报告管理办法","url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202412/t20241219_226167.html","fileTag": "危险品 事故 征候","fileKeyword": "危险品事故 危险品征候 危险品一般事件 危险品严重征候 危险品一般征候 危险品航空运输事件报告 危险品紧急事件报告 危险品非紧急事件报告"},
 {"fileId": "AC-121-FS-2019-001R4","fileName": "中国民用航空规章第121部运行规范内容","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201904/t20190426_195891.html","fileTag": "运行规范","fileKeyword": ""},
 {"fileId": "AC-121-FS-014R1","fileName": "CCAR121部合格证持有人的疲劳管理要求","url": "hhttps://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202403/t20240311_223179.html","fileTag": "疲劳风险管理体系 FRMS","fileKeyword": "疲劳系数"},
