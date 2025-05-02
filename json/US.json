@@ -23,7 +23,7 @@ var dataUS=[
 {"fileId": "AC 90-117","fileName": "Data Link Communications","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-117_(E-update).pdf","fileTag": "数据链通信 (A003)","fileKeyword": "FANS ATN PDC HF CPDLC ADS-C RSP RCP ACARS"},
 {"fileId": "AC 90-120","fileName": "Operational Use of Airborne Collision Avoidance Systems","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-120.pdf","fileTag": "ACAS TCAS (B046)","fileKeyword": ""},
 {"fileId": "AC 91-53A","fileName": "Noise Abatement Departure Profile","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/ac91-53.pdf","fileTag": "减噪离场 NADP (C068)","fileKeyword": ""},
-{"fileId": "AC 91-70C","fileName": "Oceanic and Remote Continental Airspace Operations","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-70C.pdf","fileTag": "洋区和偏远地区运行","fileKeyword": ""},
+{"fileId": "AC 91-70D","fileName": "Oceanic and Remote Continental Airspace Operations","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-70D.pdf","fileTag": "洋区和偏远地区运行","fileKeyword": ""},
 {"fileId": "AC 91-74B","fileName": "Pilot Guide: Flight In Icing Conditions","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf","fileTag": "积冰","fileKeyword": "结冰"},
 {"fileId": "AC 91-77","fileName": "General Aviation Coded Departure Routes (CDR)","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-77.pdf","fileTag": "CDR 不适用","fileKeyword": ""},
 {"fileId": "AC 91-79B","fileName": "Aircraft Landing Performance and Runway Excursion Mitigation","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-79B_FAA.pdf","fileTag": "飞机着陆性能和偏出跑道缓解","fileKeyword": ""},
