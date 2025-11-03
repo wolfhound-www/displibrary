@@ -1,0 +1,32 @@
+var dataEU=[
+{"fileId": "Reg. (EU) 2018/1139","fileName": "Basic Regulation","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-basic-regulation-regulation-eu-20181139","fileTag": "基本条例","fileKeyword": ""},
+{"fileId": "Reg. (EU) No 965/2012","fileName": "Air Operations","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012","fileTag": "航空运行","fileKeyword": ""},
+{"fileId": "Reg. (EU) No 452/2014","fileName": "Third Country Operators","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-third-country-operators-regulation-eu-no","fileTag": "第三国运营人","fileKeyword": ""},
+{"fileId": "Reg. (EU) 2017/373","fileName": "Air Traffic Management/Air Navigation Services (ATM/ANS) - Provision of Services","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-traffic-managementair-navigation-services","fileTag": "空中交通管理和空中导航服务","fileKeyword": ""},
+{"fileId": "-","fileName": "Airborne Communications Navigation and Surveillance (CS-ACNS)","url": "https://www.easa.europa.eu/document-library/easy-access-rules/easy-access-rules-airborne-communications-navigation-and","fileTag": "机载通信、导航和监视","fileKeyword": ""},
+{"fileId": "-","fileName": "All-Weather Operations (CS-AWO)","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-all-weather-operations-cs-awo","fileTag": "全天候运行","fileKeyword": ""},
+{"fileId": "Reg. (EU) No 923/2012","fileName": "Standardised European Rules of the Air (SERA)","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air-sera","fileTag": "标准化欧洲空中规则","fileKeyword": ""},
+{"fileId": "Reg. (EU) No 139/2014","fileName": "Aerodromes","url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aerodromes-regulation-eu-no-1392014","fileTag": "机场","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for the Initial Flight Plan (IFPL)","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-initial-flight-plan-ifpl","fileTag": "初始飞行计划规范 IFPL","fileKeyword": "DLA CHG CNL RAD"},
+{"fileId": "EUROCONTROL","fileName": "IFPS Users Manual","url": "https://www.eurocontrol.int/publication/ifps-users-manual","fileTag": "IFPS用户手册 飞行计划综合处理系统(IFPS)","fileKeyword": "RAD REJ"},
+{"fileId": "EUROCONTROL","fileName": "ATFCM Operations Manual","url": "https://www.eurocontrol.int/publication/atfcm-operations-manual","fileTag": "空中交通流量容量管理操作手册 RAD AUP/UUP","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "NM Flight Planning Requirements - Guidelines","url": "https://www.eurocontrol.int/publication/nm-flight-planning-requirements-guidelines","fileTag": "网络管理机构飞行计划要求指南 RAD FRA","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for Operational ANS Performance Monitoring - Air Transport Operator Data Flow","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-aodf","fileTag": "可用空中导航服务性能监视规范 航空运输运营人数据流","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Guidelines on Time-Based Separation (TBS) for Final Approach","url": "https://www.eurocontrol.int/publication/eurocontrol-guidelines-time-based-separation-tbs-final-approach","fileTag": "最后进近TBS指南 基于时间间隔(TBS)","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for Time-Based Separation (TBS) support tool for final approach","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-time-based-separation-tbs-support-tool-final-approach","fileTag": "最后进近TBS支持工具规范 基于时间间隔(TBS)","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "Flexible Use of Airspace (FUA) AMC/CADF Operations Manual","url": "https://www.eurocontrol.int/publication/flexible-use-airspace-fua-amccadf-operations-manual","fileTag": "FUA-AMC/CADF操作手册 空域灵活使用 AUP/UUP 空域管理单元(AMC) FTI 集中化空域数据功能(CADF)","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for the application of the Flexible Use of Airspace (FUA)","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-application-flexible-use-airspace-fua","fileTag": "空域灵活使用应用规范 FUA","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for SWIM Information Definition","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-swim-information-definition","fileTag": "SWIM信息定义规范 全系统信息管理(SWIM)","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Specification for SWIM Service Description (SD)","url": "https://www.eurocontrol.int/publication/eurocontrol-specification-swim-service-description-sd","fileTag": "SWIM服务描述规范 全系统信息管理(SWIM)","fileKeyword": ""},
+{"fileId": "EUROCONTROL","fileName": "EUROCONTROL Guidelines for Cold Temperature Corrections by ATS","url": "https://www.eurocontrol.int/publication/eurocontrol-guidelines-cold-temperature-corrections-ats","fileTag": "ATS低温修正指南","fileKeyword": ""}];
+
+var dataRU=[
+{"fileId": "","fileName": "俄罗斯联邦航空法","url": "https://rulaws.ru/Vozdushnyy-kodeks/","fileTag": "","fileKeyword": ""},
+{"fileId": "政府决议[2010]第138号","fileName": "俄罗斯联邦空域使用","url": "https://rulaws.ru/goverment/Postanovlenie-Pravitelstva-RF-ot-11.03.2010-N-138/","fileTag": "","fileKeyword": ""},
+{"fileId": "交通部令[2011]第293号","fileName": "空中交通管理","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-25.11.2011-N-293/","fileTag": "","fileKeyword": ""},
+{"fileId": "交通部令[2015]第262号","fileName": "民用机场","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-25.08.2015-N-262/","fileTag": "","fileKeyword": ""},
+{"fileId": "交通部令[2013]第13号","fileName": "飞机动态通信表","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-24.01.2013-N-13/","fileTag": "FPL格式","fileKeyword": ""},
+{"fileId": "交通部令[2014]第60号","fileName": "航空气象信息发布","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-03.03.2014-N-60/","fileTag": "","fileKeyword": ""}];
+
+var dataOTH=[
+{"fileId": "TP 14052","fileName": "Guidelines for Aircraft Ground - Icing Operations (Canada)","url": "https://tc.canada.ca/en/aviation/publications/guidelines-aircraft-ground-icing-operations-tp-14052","fileTag": "加拿大航空器地面结冰运行指南","fileKeyword": ""}];

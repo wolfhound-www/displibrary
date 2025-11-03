@@ -1,6 +1,7 @@
 var dataUS=[
 {"fileId": "49 USC Subtitle VII","fileName": "United States Code Title 49: Transportation - Subtitle VII: Aviation Programs","url": "https://www.govregs.com/uscode/title49_subtitleVII","fileTag": "航空法律","fileKeyword": ""},
 {"fileId": "14 CFR","fileName": "Code of Federal Regulations Title 14: Aeronautics and Space","url": "https://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14tab_02.tpl","fileTag": "航空法规","fileKeyword": ""},
+{"fileId": "","fileName": "Aircraft Ground Deicing","url": "https://www.faa.gov/other_visit/aviation_industry/airline_operators/airline_safety/deicing#collapse20126","fileTag": "航空器地面除冰","fileKeyword": "保持时间 HOT"},
 {"fileId": "AC 00-6B","fileName": "Aviation Weather","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf","fileTag": "航空气象","fileKeyword": ""},
 {"fileId": "AC 00-24C","fileName": "Thunderstorms","url": "https://www.faa.gov/documentlibrary/media/advisory_circular/ac%2000-24c.pdf","fileTag": "雷暴","fileKeyword": ""},
 {"fileId": "AC 00-30C","fileName": "Clear Air Turbulence Avoidance","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-30C.pdf","fileTag": "晴空颠簸","fileKeyword": ""},

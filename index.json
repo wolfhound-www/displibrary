@@ -44,7 +44,7 @@ var dataCN_AC=[
 {"fileId": "AP-117-TM-2019-01","fileName": "民用航空气象预报规范","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201902/t20190218_194729.html","fileTag": "天气预报 TAF","fileKeyword": ""},
 {"fileId": "AC-175-TM-2021-01","fileName": "雪情通告编发规范","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202110/t20211028_209805.html","fileTag": "雪情通告 SNOWTAM","fileKeyword": ""},
 {"fileId": "民航规〔2021〕32号","fileName": "运输机场跑道表面状况评估和通报规则","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202109/t20210910_209159.html","fileTag": "跑道表面状况代码 RWYCC","fileKeyword": ""},
-{"fileId": "AC-175-TM-2023-01","fileName": "航行通告系列划分规定","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202311/t20231120_222090.html","fileTag": "航行通告 NOTAM","fileKeyword": "K系列"},
+{"fileId": "AC-175-TM-2025-01","fileName": "民用航空航行通告系列管理规定","url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202510/t20251031_229014.html","fileTag": "航行通告 NOTAM","fileKeyword": "K系列"},
 {"fileId": "MH/T 4030-2011","fileName": "民用航空航行通告编发规范","url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/201708/t20170804_45905.html","fileTag": "航行通告 NOTAM","fileKeyword": ""},
 {"fileId": "MH/T 4031-2011","fileName": "民用航空航行通告代码选择规范","url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/201708/t20170804_45907.html","fileTag": "航行通告 NOTAM","fileKeyword": ""},
 {"fileId": "AC-139-CA-2018-01","fileName": "F类飞机在现有4E运输机场运行要求","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202007/t20200722_203717.html","fileTag": "A380","fileKeyword": ""},
@@ -87,6 +87,7 @@ var dataCN_AC=[
 {"fileId": "WM-TM-2023-001","fileName": "民用航空运输机场机场图编绘规范","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202309/t20230912_221340.html","fileTag": "机场图","fileKeyword": "机场基准点 净空道 内移的跑道入口 中间等待位置 跑道 跑道等待位置 升降带 道肩 停止道 滑行道 接地带 跑道掉头坪 云底高 PCN 道面等级号 RCLL 跑道中线灯 REDL 跑道边灯 RENL 跑道末端灯 RTZL 跑道接地地带灯 RVR 跑道视程 PAPI 精密进近航道指示器 LVP 低能见度程序 ILS 仪表着陆系统 LOC 航向信标 HUD 平视显示 GP 下滑信标 DTHR 内移跑道入口 CWY ATIS 自动终端情报服务 ASPH 沥青 ARP APN 机坪 停机位 ELEV 标高 RWY SALS 简易进近灯光系统 SFL 顺序闪光灯 SWY TWR 塔台 TWY VOR 甚高频全向信标 风向标 机坪滑行线 等待点 滑行道强度 跑道入口内移 跑道长度 道面类型 跑道强度"},
 {"fileId": "WM-TM-2019-01","fileName": "民用机场精密进近地形图编绘规范","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201912/t20191230_200088.html","fileTag": "精密进近地形图","fileKeyword": "平面图范围 水平标尺及垂直标尺"},
 {"fileId": "WM-TM-2019-02","fileName": "民用机场障碍物图-A型（运行限制）编绘规范","url": "http://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201912/t20191230_200089.html","fileTag": "机场障碍物图-A型（运行限制）","fileKeyword": "起飞航径区 重要障碍物阴影 活动障碍物"},
+{"fileId": "IB-FS-OPC-007","fileName": "目视进近程序图制作指南","url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202509/t20250909_228576.html","fileTag": "目视进近程序图","fileKeyword": ""},
 {"fileId": "局发明电〔2024〕1648号","fileName": "关于飞行程序航图样式调整的通知","url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202408/t20240806_224964.html","fileTag": "新版飞行程序航图样式说明","fileKeyword": ""},
 {"fileId": "局发明电〔2024〕2094号","fileName": "关于规范运输机场进离场程序代号的通知","url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202410/t20241015_225606.html","fileTag": "航图 飞行程序","fileKeyword": ""},
 {"fileId": "局发明电〔2024〕1993号","fileName": "关于进一步明确军民合用机场仪表飞行程序高/高度航图标注的通知","url": "http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202410/t20241017_225628.html","fileTag": "航图","fileKeyword": ""},
@@ -148,6 +149,9 @@ var dataRU=[
 {"fileId": "交通部令[2015]第262号","fileName": "民用机场","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-25.08.2015-N-262/","fileTag": "","fileKeyword": ""},
 {"fileId": "交通部令[2013]第13号","fileName": "飞机动态通信表","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-24.01.2013-N-13/","fileTag": "FPL格式","fileKeyword": ""},
 {"fileId": "交通部令[2014]第60号","fileName": "航空气象信息发布","url": "https://rulaws.ru/acts/Prikaz-Mintransa-Rossii-ot-03.03.2014-N-60/","fileTag": "","fileKeyword": ""}];
+
+var dataOTH=[
+{"fileId": "TP 14052","fileName": "Guidelines for Aircraft Ground - Icing Operations (Canada)","url": "https://tc.canada.ca/en/aviation/publications/guidelines-aircraft-ground-icing-operations-tp-14052","fileTag": "加拿大航空器地面结冰运行指南","fileKeyword": ""}];
 var dataICAO_Annex=[
 {"fileId": "Annex 1 CN","fileName": "国际民用航空公约附件1：人员执照的颁发","url": "https://elibrary.icao.int/reader/295130/&returnUrl%3DaHR0cHM6Ly9lbGlicmFyeS5pY2FvLmludC9leHBsb3JlO21haW5TZWFyY2g9MS9wcm9kdWN0LWRldGFpbHMvMjk1MTMw?productType=ebook","fileTag": "","fileKeyword": ""},
 {"fileId": "Annex 1 EN","fileName": "Annex 1: Personnel Licensing","url": "https://elibrary.icao.int/reader/295126/&returnUrl%3DaHR0cHM6Ly9lbGlicmFyeS5pY2FvLmludC9leHBsb3JlO21haW5TZWFyY2g9MQ%3D%3D?productType=eBook","fileTag": "","fileKeyword": ""},
@@ -217,6 +221,8 @@ var dataICAO_Doc=[
 {"fileId": "Doc 9859 EN","fileName": "Safety Management Manual","url": "https://elibrary.icao.int/reader/229751/&returnUrl%3DaHR0cHM6Ly9lbGlicmFyeS5pY2FvLmludC9leHBsb3JlO21haW5TZWFyY2g9MQ%3D%3D?productType=eBook","fileTag": "","fileKeyword": ""},
 {"fileId": "Doc 9974 CN","fileName": "飞行安全和火山灰","url": "https://www.icao.int/publications/Documents/9974_zh.pdf","fileTag": "","fileKeyword": "在已知或预测有火山灰污染情况下的飞行运行风险管理"},
 {"fileId": "Doc 9974 EN","fileName": "Flight Safety and Volcanic Ash","url": "https://www.icao.int/publications/Documents/9974_en.pdf","fileTag": "","fileKeyword": "在已知或预测有火山灰污染情况下的飞行运行风险管理"},
+{"fileId": "Doc 9976 CN","fileName": "飞行计划和燃油管理（FPFM）手册","url": "https://yun.csair.com/weboffice/l/suzcT8hRFfbio","fileTag": "","fileKeyword": "油量 备降场"},
+{"fileId": "Doc 9976 EN","fileName": "Flight Planning and Fuel Management (FPFM) Manual","url": "https://yun.csair.com/weboffice/l/s47dAYNtZQv0Y","fileTag": "","fileKeyword": "油量 备降场"},
 {"fileId": "Doc 10084 CN","fileName": "冲突区上空或附近民用航空器运行风险评估手册","url": "https://elibrary.icao.int/reader/229762/&returnUrl%3DaHR0cHM6Ly9lbGlicmFyeS5pY2FvLmludC9leHBsb3JlO21haW5TZWFyY2g9MS9wcm9kdWN0LWRldGFpbHMvMjI5NzYy?productType=ebook","fileTag": "","fileKeyword": ""},
 {"fileId": "Doc 10084 EN","fileName": "Risk Assessment Manual for Civil Aircraft Operations Over or Near Conflict Zones","url": "https://elibrary.icao.int/reader/229757/&returnUrl%3DaHR0cHM6Ly9lbGlicmFyeS5pY2FvLmludC9leHBsb3JlO21haW5TZWFyY2g9MQ%3D%3D?productType=eBook","fileTag": "","fileKeyword": ""},
 {"fileId": "","fileName": "Fatigue Management Guide for Airline Operators","url": "https://www.unitingaviation.com/publications/FM-Guide-Airline-Operators/","fileTag": "航空运营人疲劳管理指南","fileKeyword": ""}];
@@ -233,6 +239,7 @@ var checkedItem = "HZMekUIrRiIPqZTm5OxT72+aGn6XVunDonQbCJQw1AFCuW1+8LCu3GMqkksQD
 var dataUS=[
 {"fileId": "49 USC Subtitle VII","fileName": "United States Code Title 49: Transportation - Subtitle VII: Aviation Programs","url": "https://www.govregs.com/uscode/title49_subtitleVII","fileTag": "航空法律","fileKeyword": ""},
 {"fileId": "14 CFR","fileName": "Code of Federal Regulations Title 14: Aeronautics and Space","url": "https://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14tab_02.tpl","fileTag": "航空法规","fileKeyword": ""},
+{"fileId": "","fileName": "Aircraft Ground Deicing","url": "https://www.faa.gov/other_visit/aviation_industry/airline_operators/airline_safety/deicing#collapse20126","fileTag": "航空器地面除冰","fileKeyword": "保持时间 HOT"},
 {"fileId": "AC 00-6B","fileName": "Aviation Weather","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-6B.pdf","fileTag": "航空气象","fileKeyword": ""},
 {"fileId": "AC 00-24C","fileName": "Thunderstorms","url": "https://www.faa.gov/documentlibrary/media/advisory_circular/ac%2000-24c.pdf","fileTag": "雷暴","fileKeyword": ""},
 {"fileId": "AC 00-30C","fileName": "Clear Air Turbulence Avoidance","url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_00-30C.pdf","fileTag": "晴空颠簸","fileKeyword": ""},
